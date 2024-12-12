@@ -76,6 +76,15 @@ img{
     align-items: center;
     gap: 40px;
 }
+.nav-hover::after{
+    content: "";
+    display: flex;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color:#404bbf ;
+
+}
 
 .nav-link {
     display: block;
@@ -107,6 +116,10 @@ img{
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-position: center;
 }
 
 .hero-title {
@@ -168,6 +181,19 @@ img{
 
 .features-item {
     width: calc((100% - 72px)/4);
+}
+.icon-cont {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    padding: 23px 100px;
+    margin-bottom: 8px;
+}
+
+.features-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
 }
 
 .features-item-title {
