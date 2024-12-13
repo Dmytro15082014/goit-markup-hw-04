@@ -132,7 +132,7 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -377,7 +377,6 @@ img{
 .footer-cont{
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer-info{
